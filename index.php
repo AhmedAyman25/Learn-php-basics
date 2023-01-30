@@ -141,6 +141,7 @@
     echo 'the total from calc2 is '.calc2(10,20,60,84,800,74,85,62,25,25,23,322,55,215,588);
     echo '<br>';
 
+    # unpacking arguments of array
     $group_of_skills=['HTML','CSS','JS','PHP'];
 
     function data($name,$age,...$skills)
