@@ -18,6 +18,21 @@
     $myID = 1;
     $Is_Student = true;
     $grade = 'A';
+# Variable Variable
+    $v1 = "name";
+    $$v1 = "ahmed"; // meaning that name = ahmed
+    $$$v1 = "Ayman";// meaning that ahmed = ayman
+
+    echo $v1.'<br>'; #name
+    echo $$v1.'<br>';#ahmed
+    echo $$$v1.'<br>';#ayman
+
+    # the same output
+    echo $v1.'<br>'; #name
+    echo $name.'<br>';#ahmed
+    echo $ahmed.'<br>';#ayman
+
+
 #Array
     $names = ['Ahmed',"Ali","Amin",'Hassan']; 
     $info = ["ID" => 1, "Name" => "Ahmed", "Age"=>22 , "Salary"=>5000]; # key => value
@@ -143,7 +158,7 @@
 
 #Anonymous Function -> function without name
     $msg='hi';
-                              #i used use() because $msg is out of the function scope
+                             #i used use() because $msg is out of the function scope
     $say_hi=function($someone) use($msg) {
 
         return "$msg $someone";
