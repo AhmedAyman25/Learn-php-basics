@@ -46,10 +46,17 @@
 # Constants
     define("DB_NAME",'Hospital');
     define("PI",3.14);
-
-# If statement and Comparison
+# Arithmetic operators
+    /*  > , < , <= ,>= != , == */
     $a = 5;
     $b = 3;
+
+    echo $a < $b.'<br>'; 
+    echo $a > $b.'<br>'; 
+    echo $a == $b.'<br>'; 
+
+# If statement and Comparison
+    
     if($a > $b){
         echo "$a is greater than $b".'<br>';
     }
