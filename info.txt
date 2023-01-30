@@ -1,0 +1,2 @@
+hello 
+from the text file called by include() function
