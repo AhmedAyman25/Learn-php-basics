@@ -13,7 +13,7 @@
     echo '<br>';
     # require_once() , include_once() نفس فكره الانكلود والريكواير العاديين ولكن بتستدعي الملف مره واحده
 
-# variables 
+# variables are nothing more than named storage location in memory
     $myName = 'Ahmed';
     $myID = 1;
     $Is_Student = true;
