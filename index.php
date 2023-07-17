@@ -1,8 +1,14 @@
 
 <?php 
  /* 
-    - to print somthing use:
-        echo or print 
+  *  PHP is a loosely-typed that mean we are not required to tell the PHP the type of the data to be stored 
+  * PHP will manage the data type of variable based on the value stored within it
+  *  to print somthing use: 
+     - echo -> can take single or multiple parameters separated by comma. 'example' echo "Hello","php" 
+     - print -> take only one parameter   'example' print("Hello php") | use the concatenation like this -> print "Hello"."php"
+     
+     both do the same function but echo slightly faster 
+  
     
  */
 # Include, Require, Include_ones, Require_ones
